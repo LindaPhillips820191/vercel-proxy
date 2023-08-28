@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    { "source": "/api/proxy/:url*", "destination": "https://cdn.discordapp.com/:url*" }
+  ],
+  "headers": [
+    {
+      "source": "/api/proxy/:url*",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "https://gfish.top" },
+        { "key": "Access-Control-Allow-Headers", "value": "Origin, X-Requested-With, Content-Type, Accept" }
+      ]
+    }
+  ]
+}
