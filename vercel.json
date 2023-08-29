@@ -7,6 +7,11 @@
   "regions": [
         "hkg1"
     ],
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  },
   "headers": [
     {
       "source": "/image/:url*",
