@@ -1,6 +1,7 @@
 {
   "rewrites": [
     { "source": "/image/:url*", "destination": "https://cdn.discordapp.com/:url*" },
+     { "source": "/media/:url*", "destination": "https://media.discordapp.net/:url*" },
     { "source": "/chatgpt/:url*", "destination": "https://api.openai.com/:url*" },
     { "source": "/wss/:url*", "destination": "wss://gateway.discord.gg/:url*" } 
   ], 
