@@ -1,11 +1,15 @@
 {
   "rewrites": [
     { "source": "/image/:url*", "destination": "https://cdn.discordapp.com/:url*" },
-    { "source": "/chatgpt/:url*", "destination": "https://api.openai.com/:url*" }
+    { "source": "/chatgpt/:url*", "destination": "https://api.openai.com/:url*" },
+    { "source": "/wss/:url*", "destination": "wss://gateway.discord.gg/:url*" }
   ],
+  "regions": [
+        "hkg1"
+    ],
   "headers": [
     {
-      "source": "/api/proxy/:url*",
+      "source": "/image/:url*",
       "headers": [
         { "key": "Access-Control-Allow-Origin", "value": "https://gfish.top" },
         { "key": "Access-Control-Allow-Headers", "value": "Origin, X-Requested-With, Content-Type, Accept" }
