@@ -1,5 +1,6 @@
 {
   "rewrites": [
+     { "source": "/midpaint/:url*", "destination": "https://936929561302675456.discordsays.com/inpaint/:url*" },
     { "source": "/image/:url*", "destination": "https://cdn.discordapp.com/:url*" },
      { "source": "/media/:url*", "destination": "https://media.discordapp.net/:url*" },
     { "source": "/chatgpt/:url*", "destination": "https://api.openai.com/:url*" },
